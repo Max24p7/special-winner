@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1099F9;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: whitesmoke;
+    border-radius: 10px;
+    min-height: 100px;
+    width: 520px;
+    margin: 100px auto;
+    height: auto;
+}
+
+.base {
+    margin: 0;
+    width: 100%;
+    overflow: hidden;
+    display: block;
+    float: none;
+}
+
+.base h4{
+    font-size: 24px;
+    text-align: center;
+    margin-top: 0px;
+    box-shadow: 0px 2px #bababa;
+    font-weight: normal;
+    color: black;
+    padding: 5px;
+    background-color: white;
+}
+
+.block {
+    width: 135px;
+    padding: 5px 20px;
+    margin-left: 20px;
+    display: inline-block;
+}
+
+.title {
+    font-size: 20px;
+    text-align: left;
+    font-family: sans-serif;
+    font-weight: normal;
+    letter-spacing: 0.5px;
+    color: black;
+    word-spacing: 2.7px;
+}
+
+input[type=text]{
+    width: 140px;
+    margin: auto;
+    outline: none;
+    min-height: 50px;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: black;
+    font-size: 17px;
+    padding: 12px;
+
+}
+
+input[type=text]:focus {
+    background: #ffffff;
+    border: 2px solid darkorange;
+}
+
+input[type=button]{
+    width: 150px;
+    margin-left: 35%;
+    margin-top: 40px;
+    outline: none;
+    border-radius: 5px;
+    background-color: gray;
+    padding: 14px 16px;
+    color: white;
+    font-size: 17px;
+}
+
+input[type=button]:hover{
+    background-color: #003669;
+
+}
+
+.age{
+    display: block;
+    margin: 10px;
+    margin-top: 35px;
+    padding-bottom: 20px;
+    overflow: hidden;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 1.5;
+    word-spacing: 2.7px;
+    color: black;
+    padding: 10px;
+
+}
